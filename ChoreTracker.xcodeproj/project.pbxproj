@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB92B51F2BA7DD69003731C3 /* ChoreTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB92B51E2BA7DD69003731C3 /* ChoreTrackerApp.swift */; };
+		CB92B5212BA7DD69003731C3 /* ChoreListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB92B5202BA7DD69003731C3 /* ChoreListView.swift */; };
+		CB92B5232BA7DD69003731C3 /* Chore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB92B5222BA7DD69003731C3 /* Chore.swift */; };
+		CB92B5252BA7DD6A003731C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB92B5242BA7DD6A003731C3 /* Assets.xcassets */; };
+		CB92B5292BA7DD6A003731C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB92B5282BA7DD6A003731C3 /* Preview Assets.xcassets */; };
+		CB92B5342BA7DD6A003731C3 /* ChoreTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB92B5332BA7DD6A003731C3 /* ChoreTrackerTests.swift */; };
+		CB92B53E2BA7DD6A003731C3 /* ChoreTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB92B53D2BA7DD6A003731C3 /* ChoreTrackerUITests.swift */; };
+		CB92B5402BA7DD6A003731C3 /* ChoreTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB92B53F2BA7DD6A003731C3 /* ChoreTrackerUITestsLaunchTests.swift */; };
+		CB92B5512BAE9B32003731C3 /* ChoreDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB92B5502BAE9B32003731C3 /* ChoreDetailView.swift */; };
+		CB92B5542BAFE2E6003731C3 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB92B5532BAFE2E6003731C3 /* Color+Extensions.swift */; };
+		CB92B5562BAFECE7003731C3 /* StandardInputStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB92B5552BAFECE7003731C3 /* StandardInputStyle.swift */; };
+		CB92B5592BB0A65D003731C3 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = CB92B5582BB0A65D003731C3 /* Localizable.xcstrings */; };
+		CB92B55C2BB0A753003731C3 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB92B55B2BB0A753003731C3 /* String+Extensions.swift */; };
+		CBDA29932BB676970027BF01 /* NewChoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDA29922BB676970027BF01 /* NewChoreView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB92B5302BA7DD6A003731C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB92B5132BA7DD69003731C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB92B51A2BA7DD69003731C3;
+			remoteInfo = ChoreTracker;
+		};
+		CB92B53A2BA7DD6A003731C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB92B5132BA7DD69003731C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB92B51A2BA7DD69003731C3;
+			remoteInfo = ChoreTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB92B51B2BA7DD69003731C3 /* ChoreTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChoreTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB92B51E2BA7DD69003731C3 /* ChoreTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoreTrackerApp.swift; sourceTree = "<group>"; };
+		CB92B5202BA7DD69003731C3 /* ChoreListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoreListView.swift; sourceTree = "<group>"; };
+		CB92B5222BA7DD69003731C3 /* Chore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chore.swift; sourceTree = "<group>"; };
+		CB92B5242BA7DD6A003731C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB92B5262BA7DD6A003731C3 /* ChoreTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChoreTracker.entitlements; sourceTree = "<group>"; };
+		CB92B5282BA7DD6A003731C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CB92B52A2BA7DD6A003731C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB92B52F2BA7DD6A003731C3 /* ChoreTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChoreTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB92B5332BA7DD6A003731C3 /* ChoreTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoreTrackerTests.swift; sourceTree = "<group>"; };
+		CB92B5392BA7DD6A003731C3 /* ChoreTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChoreTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB92B53D2BA7DD6A003731C3 /* ChoreTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoreTrackerUITests.swift; sourceTree = "<group>"; };
+		CB92B53F2BA7DD6A003731C3 /* ChoreTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoreTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CB92B5502BAE9B32003731C3 /* ChoreDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoreDetailView.swift; sourceTree = "<group>"; };
+		CB92B5532BAFE2E6003731C3 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		CB92B5552BAFECE7003731C3 /* StandardInputStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardInputStyle.swift; sourceTree = "<group>"; };
+		CB92B5582BB0A65D003731C3 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		CB92B55B2BB0A753003731C3 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		CBDA29922BB676970027BF01 /* NewChoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChoreView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB92B5182BA7DD69003731C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB92B52C2BA7DD6A003731C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB92B5362BA7DD6A003731C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB92B5122BA7DD69003731C3 = {
+			isa = PBXGroup;
+			children = (
+				CB92B51D2BA7DD69003731C3 /* ChoreTracker */,
+				CB92B5322BA7DD6A003731C3 /* ChoreTrackerTests */,
+				CB92B53C2BA7DD6A003731C3 /* ChoreTrackerUITests */,
+				CB92B51C2BA7DD69003731C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB92B51C2BA7DD69003731C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB92B51B2BA7DD69003731C3 /* ChoreTracker.app */,
+				CB92B52F2BA7DD6A003731C3 /* ChoreTrackerTests.xctest */,
+				CB92B5392BA7DD6A003731C3 /* ChoreTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB92B51D2BA7DD69003731C3 /* ChoreTracker */ = {
+			isa = PBXGroup;
+			children = (
+				CB92B55A2BB0A740003731C3 /* Extensions */,
+				CB92B54F2BAE94AF003731C3 /* Views */,
+				CB92B54C2BA7DD8F003731C3 /* Models */,
+				CB92B5522BAFE2D3003731C3 /* Styles */,
+				CB92B5572BB0A645003731C3 /* Resources */,
+				CB92B51E2BA7DD69003731C3 /* ChoreTrackerApp.swift */,
+				CB92B5262BA7DD6A003731C3 /* ChoreTracker.entitlements */,
+				CB92B52A2BA7DD6A003731C3 /* Info.plist */,
+				CB92B5272BA7DD6A003731C3 /* Preview Content */,
+			);
+			path = ChoreTracker;
+			sourceTree = "<group>";
+		};
+		CB92B5272BA7DD6A003731C3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CB92B5282BA7DD6A003731C3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CB92B5322BA7DD6A003731C3 /* ChoreTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB92B5332BA7DD6A003731C3 /* ChoreTrackerTests.swift */,
+			);
+			path = ChoreTrackerTests;
+			sourceTree = "<group>";
+		};
+		CB92B53C2BA7DD6A003731C3 /* ChoreTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB92B53D2BA7DD6A003731C3 /* ChoreTrackerUITests.swift */,
+				CB92B53F2BA7DD6A003731C3 /* ChoreTrackerUITestsLaunchTests.swift */,
+			);
+			path = ChoreTrackerUITests;
+			sourceTree = "<group>";
+		};
+		CB92B54C2BA7DD8F003731C3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CB92B5222BA7DD69003731C3 /* Chore.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CB92B54F2BAE94AF003731C3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CB92B5202BA7DD69003731C3 /* ChoreListView.swift */,
+				CB92B5502BAE9B32003731C3 /* ChoreDetailView.swift */,
+				CBDA29922BB676970027BF01 /* NewChoreView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CB92B5522BAFE2D3003731C3 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				CB92B5532BAFE2E6003731C3 /* Color+Extensions.swift */,
+				CB92B5552BAFECE7003731C3 /* StandardInputStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		CB92B5572BB0A645003731C3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CB92B5242BA7DD6A003731C3 /* Assets.xcassets */,
+				CB92B5582BB0A65D003731C3 /* Localizable.xcstrings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CB92B55A2BB0A740003731C3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CB92B55B2BB0A753003731C3 /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB92B51A2BA7DD69003731C3 /* ChoreTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB92B5432BA7DD6A003731C3 /* Build configuration list for PBXNativeTarget "ChoreTracker" */;
+			buildPhases = (
+				CB92B5172BA7DD69003731C3 /* Sources */,
+				CB92B5182BA7DD69003731C3 /* Frameworks */,
+				CB92B5192BA7DD69003731C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChoreTracker;
+			productName = ChoreTracker;
+			productReference = CB92B51B2BA7DD69003731C3 /* ChoreTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB92B52E2BA7DD6A003731C3 /* ChoreTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB92B5462BA7DD6A003731C3 /* Build configuration list for PBXNativeTarget "ChoreTrackerTests" */;
+			buildPhases = (
+				CB92B52B2BA7DD6A003731C3 /* Sources */,
+				CB92B52C2BA7DD6A003731C3 /* Frameworks */,
+				CB92B52D2BA7DD6A003731C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB92B5312BA7DD6A003731C3 /* PBXTargetDependency */,
+			);
+			name = ChoreTrackerTests;
+			productName = ChoreTrackerTests;
+			productReference = CB92B52F2BA7DD6A003731C3 /* ChoreTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB92B5382BA7DD6A003731C3 /* ChoreTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB92B5492BA7DD6A003731C3 /* Build configuration list for PBXNativeTarget "ChoreTrackerUITests" */;
+			buildPhases = (
+				CB92B5352BA7DD6A003731C3 /* Sources */,
+				CB92B5362BA7DD6A003731C3 /* Frameworks */,
+				CB92B5372BA7DD6A003731C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB92B53B2BA7DD6A003731C3 /* PBXTargetDependency */,
+			);
+			name = ChoreTrackerUITests;
+			productName = ChoreTrackerUITests;
+			productReference = CB92B5392BA7DD6A003731C3 /* ChoreTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB92B5132BA7DD69003731C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CB92B51A2BA7DD69003731C3 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					CB92B52E2BA7DD6A003731C3 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = CB92B51A2BA7DD69003731C3;
+					};
+					CB92B5382BA7DD6A003731C3 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = CB92B51A2BA7DD69003731C3;
+					};
+				};
+			};
+			buildConfigurationList = CB92B5162BA7DD69003731C3 /* Build configuration list for PBXProject "ChoreTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB92B5122BA7DD69003731C3;
+			productRefGroup = CB92B51C2BA7DD69003731C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB92B51A2BA7DD69003731C3 /* ChoreTracker */,
+				CB92B52E2BA7DD6A003731C3 /* ChoreTrackerTests */,
+				CB92B5382BA7DD6A003731C3 /* ChoreTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB92B5192BA7DD69003731C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB92B5292BA7DD6A003731C3 /* Preview Assets.xcassets in Resources */,
+				CB92B5252BA7DD6A003731C3 /* Assets.xcassets in Resources */,
+				CB92B5592BB0A65D003731C3 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB92B52D2BA7DD6A003731C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB92B5372BA7DD6A003731C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB92B5172BA7DD69003731C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBDA29932BB676970027BF01 /* NewChoreView.swift in Sources */,
+				CB92B5512BAE9B32003731C3 /* ChoreDetailView.swift in Sources */,
+				CB92B5562BAFECE7003731C3 /* StandardInputStyle.swift in Sources */,
+				CB92B5212BA7DD69003731C3 /* ChoreListView.swift in Sources */,
+				CB92B5232BA7DD69003731C3 /* Chore.swift in Sources */,
+				CB92B55C2BB0A753003731C3 /* String+Extensions.swift in Sources */,
+				CB92B51F2BA7DD69003731C3 /* ChoreTrackerApp.swift in Sources */,
+				CB92B5542BAFE2E6003731C3 /* Color+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB92B52B2BA7DD6A003731C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB92B5342BA7DD6A003731C3 /* ChoreTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB92B5352BA7DD6A003731C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB92B53E2BA7DD6A003731C3 /* ChoreTrackerUITests.swift in Sources */,
+				CB92B5402BA7DD6A003731C3 /* ChoreTrackerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB92B5312BA7DD6A003731C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB92B51A2BA7DD69003731C3 /* ChoreTracker */;
+			targetProxy = CB92B5302BA7DD6A003731C3 /* PBXContainerItemProxy */;
+		};
+		CB92B53B2BA7DD6A003731C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB92B51A2BA7DD69003731C3 /* ChoreTracker */;
+			targetProxy = CB92B53A2BA7DD6A003731C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CB92B5412BA7DD6A003731C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB92B5422BA7DD6A003731C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CB92B5442BA7DD6A003731C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChoreTracker/ChoreTracker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChoreTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = FB4GZPFLL6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChoreTracker/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nathanfuller.ChoreTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB92B5452BA7DD6A003731C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChoreTracker/ChoreTracker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChoreTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = FB4GZPFLL6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChoreTracker/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nathanfuller.ChoreTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB92B5472BA7DD6A003731C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FB4GZPFLL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nathanfuller.ChoreTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChoreTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChoreTracker";
+			};
+			name = Debug;
+		};
+		CB92B5482BA7DD6A003731C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FB4GZPFLL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nathanfuller.ChoreTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChoreTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChoreTracker";
+			};
+			name = Release;
+		};
+		CB92B54A2BA7DD6A003731C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FB4GZPFLL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nathanfuller.ChoreTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChoreTracker;
+			};
+			name = Debug;
+		};
+		CB92B54B2BA7DD6A003731C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FB4GZPFLL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nathanfuller.ChoreTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChoreTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB92B5162BA7DD69003731C3 /* Build configuration list for PBXProject "ChoreTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB92B5412BA7DD6A003731C3 /* Debug */,
+				CB92B5422BA7DD6A003731C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB92B5432BA7DD6A003731C3 /* Build configuration list for PBXNativeTarget "ChoreTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB92B5442BA7DD6A003731C3 /* Debug */,
+				CB92B5452BA7DD6A003731C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB92B5462BA7DD6A003731C3 /* Build configuration list for PBXNativeTarget "ChoreTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB92B5472BA7DD6A003731C3 /* Debug */,
+				CB92B5482BA7DD6A003731C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB92B5492BA7DD6A003731C3 /* Build configuration list for PBXNativeTarget "ChoreTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB92B54A2BA7DD6A003731C3 /* Debug */,
+				CB92B54B2BA7DD6A003731C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB92B5132BA7DD69003731C3 /* Project object */;
+}

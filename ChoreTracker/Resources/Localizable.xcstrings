@@ -1,0 +1,27 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+
+    },
+    "%@" : {
+
+    },
+    "Chore title" : {
+
+    },
+    "Completed on %@" : {
+
+    },
+    "Created on %@" : {
+
+    },
+    "Enter something" : {
+
+    },
+    "My Chores" : {
+
+    }
+  },
+  "version" : "1.0"
+}
