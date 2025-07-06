@@ -12,21 +12,7 @@ struct NewChoreView: View {
     @State var title: String = ""
     
     var body: some View {
-        TextField("", text: $title)
-            .lineLimit(3)
-            .placeholder(when: title.isEmpty) {
-                Text("Chore title")
-            }
-            .frame(alignment: .topLeading)
-            .font(.title)
-            .foregroundStyle(Color.Text.primary)
-            .padding()
-            .frame(maxWidth: .greatestFiniteMagnitude, alignment: .leading)
-            .background {
-                RoundedRectangle(cornerRadius: 8, style: .continuous)
-                    .foregroundStyle(Color.Background.card)
-            }
-            .shadow(radius: 4)
+        CTTextView(placeholder: "Chore title", text: $title)
             .onSubmit {
                 if !title.isEmpty {
                     modelContext.insert(Chore(title: title))

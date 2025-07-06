@@ -17,7 +17,7 @@
 		CB92B5402BA7DD6A003731C3 /* ChoreTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB92B53F2BA7DD6A003731C3 /* ChoreTrackerUITestsLaunchTests.swift */; };
 		CB92B5512BAE9B32003731C3 /* ChoreDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB92B5502BAE9B32003731C3 /* ChoreDetailView.swift */; };
 		CB92B5542BAFE2E6003731C3 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB92B5532BAFE2E6003731C3 /* Color+Extensions.swift */; };
-		CB92B5562BAFECE7003731C3 /* StandardInputStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB92B5552BAFECE7003731C3 /* StandardInputStyle.swift */; };
+		CB92B5562BAFECE7003731C3 /* CTTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB92B5552BAFECE7003731C3 /* CTTextView.swift */; };
 		CB92B5592BB0A65D003731C3 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = CB92B5582BB0A65D003731C3 /* Localizable.xcstrings */; };
 		CB92B55C2BB0A753003731C3 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB92B55B2BB0A753003731C3 /* String+Extensions.swift */; };
 		CBDA29932BB676970027BF01 /* NewChoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDA29922BB676970027BF01 /* NewChoreView.swift */; };
@@ -56,7 +56,7 @@
 		CB92B53F2BA7DD6A003731C3 /* ChoreTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoreTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CB92B5502BAE9B32003731C3 /* ChoreDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoreDetailView.swift; sourceTree = "<group>"; };
 		CB92B5532BAFE2E6003731C3 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
-		CB92B5552BAFECE7003731C3 /* StandardInputStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardInputStyle.swift; sourceTree = "<group>"; };
+		CB92B5552BAFECE7003731C3 /* CTTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTTextView.swift; sourceTree = "<group>"; };
 		CB92B5582BB0A65D003731C3 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		CB92B55B2BB0A753003731C3 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		CBDA29922BB676970027BF01 /* NewChoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChoreView.swift; sourceTree = "<group>"; };
@@ -113,7 +113,7 @@
 				CB92B55A2BB0A740003731C3 /* Extensions */,
 				CB92B54F2BAE94AF003731C3 /* Views */,
 				CB92B54C2BA7DD8F003731C3 /* Models */,
-				CB92B5522BAFE2D3003731C3 /* Styles */,
+				CB92B5522BAFE2D3003731C3 /* UI */,
 				CB92B5572BB0A645003731C3 /* Resources */,
 				CB92B51E2BA7DD69003731C3 /* ChoreTrackerApp.swift */,
 				CB92B5262BA7DD6A003731C3 /* ChoreTracker.entitlements */,
@@ -166,13 +166,13 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		CB92B5522BAFE2D3003731C3 /* Styles */ = {
+		CB92B5522BAFE2D3003731C3 /* UI */ = {
 			isa = PBXGroup;
 			children = (
 				CB92B5532BAFE2E6003731C3 /* Color+Extensions.swift */,
-				CB92B5552BAFECE7003731C3 /* StandardInputStyle.swift */,
+				CB92B5552BAFECE7003731C3 /* CTTextView.swift */,
 			);
-			path = Styles;
+			path = UI;
 			sourceTree = "<group>";
 		};
 		CB92B5572BB0A645003731C3 /* Resources */ = {
@@ -325,7 +325,7 @@
 			files = (
 				CBDA29932BB676970027BF01 /* NewChoreView.swift in Sources */,
 				CB92B5512BAE9B32003731C3 /* ChoreDetailView.swift in Sources */,
-				CB92B5562BAFECE7003731C3 /* StandardInputStyle.swift in Sources */,
+				CB92B5562BAFECE7003731C3 /* CTTextView.swift in Sources */,
 				CB92B5212BA7DD69003731C3 /* ChoreListView.swift in Sources */,
 				CB92B5232BA7DD69003731C3 /* Chore.swift in Sources */,
 				CB92B55C2BB0A753003731C3 /* String+Extensions.swift in Sources */,
